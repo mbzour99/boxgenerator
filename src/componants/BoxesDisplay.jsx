@@ -4,8 +4,7 @@ const BoxesDisplay = (props) => {
   return (
     <div>
 
-        
-        {props.scolor.map((item,index)=>
+    {props.scolor.map((item,index)=>
     <div key={index} style={{
         backgroundColor:item,
     border:'1px solid black',

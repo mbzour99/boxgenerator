@@ -14,6 +14,6 @@ const Colorform = (props) => {
             <input type="submit"  value="Add A Box" />
         </form>
     );
-};
+}; 
     
 export default Colorform;
